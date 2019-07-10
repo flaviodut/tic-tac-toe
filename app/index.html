@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <main id="game" class="game">
+    <h1>Tic Tac Toe</h1>
+    <div class="game__content">
+      <span class="game__slot" data-line="0" data-column="0"></span>
+      <span class="game__slot" data-line="0" data-column="1"></span>
+      <span class="game__slot" data-line="0" data-column="2"></span>
+      <span class="game__slot" data-line="1" data-column="0"></span>
+      <span class="game__slot" data-line="1" data-column="1"></span>
+      <span class="game__slot" data-line="1" data-column="2"></span>
+      <span class="game__slot" data-line="2" data-column="0"></span>
+      <span class="game__slot" data-line="2" data-column="1"></span>
+      <span class="game__slot" data-line="2" data-column="2"></span>
+    </div>
+    <div class="game__turn">
+      <span class="game__icon-cross"></span>
+      <span class="game__icon-circle"></span>
+    </div>
+    <div class="game__result"></div>
+    <div class="game__buttons" style="display: none;">
+      <a class="game__button game__button-reset" href="javascript:;">Reset</a>
+    </div>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
