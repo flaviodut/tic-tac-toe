@@ -27,6 +27,7 @@ body {
   max-width: 90vw;
   height: 65vh;
   max-height: 90vw;
+  margin-top: 2rem;
 }
 
 .game__slot {
