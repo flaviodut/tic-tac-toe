@@ -102,6 +102,7 @@ function handler(e) {
 }
 
 function reset() {
+  isCross = true
   counter = 0
   turn.style.display = 'flex'
   buttons.style.display = 'none'
